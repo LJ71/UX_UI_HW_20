@@ -306,3 +306,56 @@ form button:hover {
   margin-top: 0;
   font-size: 20px;
 }
+.nav-link {
+  color: white;
+}
+.project_section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.jumbotron img {
+  display: block;
+  margin: 0 auto;
+}
+#research h2 {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.cards > div {
+  margin: 0 16px;
+  margin-bottom: 32px;
+}
+
+.card img {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.iteration_image_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.iteration_image_container img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
