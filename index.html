@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lance Joseph UX/UI Portfolio</title>
+    <link href="./styles/index.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/b75ce22703.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="container">
+      <aside>
+        <a href="index.html"
+          ><img class="logo" src="./images/Logo_trans.png"
+        /></a>
+        <img class="sit" src="./images/Sit.JPG" />
+      </aside>
+      <div id="content">
+        <header>
+          <nav>
+            <ul>
+              <li>
+                <a href="about_me.html">About Me</a>
+              </li>
+              <li>
+                <a href="my_skills.html">My Skills</a>
+              </li>
+              <li>
+                <a href="my_work.html">My Work</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <section class="bio">
+          <h3>Hey, I'm Lance...</h3>
+          <p>
+            After numerous software project implementations, I found the field
+            of user experience design to align with my passion for creative and
+            purposeful work. I have over 15 years of experience in implementing
+            enterprise software solutions and working on process re-design (B2B,
+            B2B2C and SaaS) in the financial software industry.
+          </p>
+          <p>
+            My goal as a designer is to always advocate for the user by creating
+            intuitive interactions and seamless experiences that solve for user
+            needs and goals. I enjoy the process of redesigning highly technical
+            products into user-friendly interfaces that are easy to navigate.
+          </p>
+          <p>
+            In general, I love to create meaningful experiences and constantly
+            seek ways to grow. If you’d like to hear more, then please feel free
+            to reach out!
+          </p>
+        </section>
+      </div>
+    </div>
+    <footer>
+      <ul>
+        <li>&copy; Copyright 2021</li>
+        <li><a href="https://www.linkedin.com">LinkedIn</a></li>
+        
+        <li><a href="./resume.docx">Resume</a></li>
+        <li><a class="connect" href="#"> Let's Connect</a></li>
+      </ul>
+    </footer>
+
+    <div class="modal">
+      <i class="fas fa-times" onclick="closeModal()"></i>      
+      <form class="contact_form">
+        <input id="name" type="text" name="name" placeholder="Enter your name" />
+        <input id="email" type="email" name="email" placeholder="Enter your email" />
+        <textarea id="message" name="message" placeholder="Enter your Message"></textarea>
+        <button type="button" onclick="sendEmail()">Submit</button>
+      </form>
+      <p class="message">Thank you for your message, I’ll get back to you shortly. Lance</p>
+    </div>
+    <div class="overlay"></div>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
