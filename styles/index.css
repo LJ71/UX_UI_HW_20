@@ -1,6 +1,9 @@
 body {
   background-color: #6e82ac;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 i {
   font-family: FontAwesome;
@@ -212,6 +215,9 @@ footer {
     width: 200px;
     height: 150px;
   }
+  .vid_modal {
+    max-height: 350px !important;
+  }
 }
 .projectDetails h3 {
   margin-top: 0px;
@@ -245,6 +251,7 @@ footer {
   transform: translate(-50%, -50%);
   box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
   z-index: 3;
+  max-height: 500px;
 }
 .modal i {
   position: absolute;
@@ -312,7 +319,7 @@ form button:hover {
 .project_section {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 40px 20px;
 }
 .jumbotron img {
   display: block;
@@ -358,4 +365,26 @@ form button:hover {
   width: 150px;
   height: auto;
   margin-bottom: 20px;
+}
+.prototype_img {
+  width: 65%;
+  max-width: 230px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.prototype_video {
+  width: 100%;
+}
+.vid_modal {
+  max-height: 500px;
+  max-width: 700px;
+}
+
+ul.nav {
+  position: sticky;
+  top: 0;
+  background-color: black;
+  z-index: 3;
 }

@@ -31,9 +31,10 @@
         <a class="nav-link" href="#iterations">Iterations</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#prototype">Prototype</a>
+        <a class="nav-link" href="#prototype">Prototypes</a>
       </li>
     </ul>
+    <a href="index.html"><img class="logo" src="./images/Logo_trans.png" /></a>
     <section class="project_section" id="introduction">
       <div class="jumbotron">
         <h1 class="display-4">Introduction</h1>
@@ -53,7 +54,7 @@
           neque. Mollis id tempus ut lectus. Egestas orci, congue leo amet
           neque.
         </p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        <a class="btn btn-primary btn-lg" href="#research" role="button">Learn more</a>
       </div>
     </section>
 
@@ -209,7 +210,25 @@
         </div>
       </div>
     </section>
-    <section class="project_section" id="prototype"></section>
+    <section class="project_section" id="prototype">
+      <h2>Prototypes</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <img class="prototype_img" src="./images/iPhoneLoFi.png">
+            
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <img class="prototype_img" src="./images/iPhoneMiFi.png">
+            
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <img class="prototype_img" src="./images/iPhoneHiFi.png">
+            
+          </div>
+        </div>
+      </div>
+    </section>
     <footer class="my_skills_footer">
       <ul>
         <li>&copy; Copyright 2021</li>
@@ -219,7 +238,7 @@
         <li><a class="connect" href="#"> Let's Connect</a></li>
       </ul>
     </footer>
-    <div class="modal">
+    <div class="modal form_modal">
       <i class="fas fa-times" onclick="closeModal()"></i>      
       <form class="contact_form">
         <input id="name" type="text" name="name" placeholder="Enter your name" />
@@ -230,6 +249,17 @@
       <p class="message">Thank you for your message, I’ll get back to you shortly. Lance</p>
     </div>
     <div class="overlay"></div>
+
+    <div class="modal vid_modal">
+      <i class="fas fa-times" onclick="closeModal()"></i>
+    <video class="prototype_video" controls>
+
+      <source src="./images/LoFiVid.webm"
+              type="video/webm">
+  
+      Sorry, your browser doesn't support embedded videos.
+    </video>
+    </div>  
     </div>
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
