@@ -388,3 +388,7 @@ ul.nav {
   background-color: black;
   z-index: 3;
 }
+.app_name {
+  text-align: center;
+  color: white;
+}
